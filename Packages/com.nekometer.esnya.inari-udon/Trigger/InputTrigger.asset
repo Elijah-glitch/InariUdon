@@ -17,10 +17,11 @@ MonoBehaviour:
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 3013db48c82f7a849b642918ffa2cf01, type: 3}
+  scriptVersion: 2
+  compiledVersion: 0
   behaviourSyncMode: 2
-  behaviourIDHeapVarName: __refl_const_intnl_udonTypeID
-  compileErrors: []
   hasInteractEvent: 0
+  scriptID: 0
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
@@ -53,52 +54,28 @@ MonoBehaviour:
     - Name: $v
       Entry: 7
       Data: 2|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
-    - Name: fieldSymbol
-      Entry: 7
-      Data: 3|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
-    - Name: internalType
-      Entry: 7
-      Data: 4|System.RuntimeType, mscorlib
-    - Name: 
-      Entry: 1
-      Data: System.String, mscorlib
-    - Name: 
-      Entry: 8
+    - Name: <Name>k__BackingField
+      Entry: 6
       Data: 
-    - Name: declarationType
-      Entry: 3
-      Data: 1
-    - Name: syncMode
-      Entry: 3
-      Data: 0
-    - Name: symbolResolvedTypeName
-      Entry: 1
-      Data: SystemString
-    - Name: symbolOriginalName
-      Entry: 1
-      Data: keyName
-    - Name: symbolUniqueName
-      Entry: 1
-      Data: keyName
-    - Name: symbolDefaultValue
+    - Name: <UserType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SystemType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SyncMode>k__BackingField
+      Entry: 7
+      Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
+    - Name: 
       Entry: 6
       Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: fieldAttributes
-      Entry: 7
-      Data: 5|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: userBehaviourSource
+    - Name: <IsSerialized>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: _fieldAttributes
       Entry: 6
       Data: 
     - Name: 
@@ -113,49 +90,148 @@ MonoBehaviour:
     - Name: $k
       Entry: 1
       Data: buttonName
+    - Name: $v
+      Entry: 7
+      Data: 3|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+    - Name: <Name>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <UserType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SystemType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SyncMode>k__BackingField
+      Entry: 7
+      Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <IsSerialized>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: _fieldAttributes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: keyDown
+    - Name: $v
+      Entry: 7
+      Data: 4|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+    - Name: <Name>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <UserType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SystemType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SyncMode>k__BackingField
+      Entry: 7
+      Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <IsSerialized>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: _fieldAttributes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: buttonDown
+    - Name: $v
+      Entry: 7
+      Data: 5|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+    - Name: <Name>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <UserType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SystemType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SyncMode>k__BackingField
+      Entry: 7
+      Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <IsSerialized>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: _fieldAttributes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: eventTargets
     - Name: $v
       Entry: 7
       Data: 6|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
-    - Name: fieldSymbol
+    - Name: <Name>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <UserType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SystemType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SyncMode>k__BackingField
       Entry: 7
-      Data: 7|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
-    - Name: internalType
-      Entry: 9
-      Data: 4
-    - Name: declarationType
-      Entry: 3
-      Data: 1
-    - Name: syncMode
-      Entry: 3
-      Data: 0
-    - Name: symbolResolvedTypeName
-      Entry: 1
-      Data: SystemString
-    - Name: symbolOriginalName
-      Entry: 1
-      Data: buttonName
-    - Name: symbolUniqueName
-      Entry: 1
-      Data: buttonName
-    - Name: symbolDefaultValue
+      Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
+    - Name: 
       Entry: 6
       Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: fieldAttributes
-      Entry: 7
-      Data: 8|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: userBehaviourSource
+    - Name: <IsSerialized>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: _fieldAttributes
       Entry: 6
       Data: 
     - Name: 
@@ -169,416 +245,110 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: keyDown
+      Data: eventNames
+    - Name: $v
+      Entry: 7
+      Data: 7|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+    - Name: <Name>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <UserType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SystemType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SyncMode>k__BackingField
+      Entry: 7
+      Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <IsSerialized>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: _fieldAttributes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: keyUp
+    - Name: $v
+      Entry: 7
+      Data: 8|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+    - Name: <Name>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <UserType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SystemType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SyncMode>k__BackingField
+      Entry: 7
+      Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <IsSerialized>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: _fieldAttributes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: buttonUp
     - Name: $v
       Entry: 7
       Data: 9|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
-    - Name: fieldSymbol
-      Entry: 7
-      Data: 10|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
-    - Name: internalType
-      Entry: 7
-      Data: 11|System.RuntimeType, mscorlib
-    - Name: 
-      Entry: 1
-      Data: System.Boolean, mscorlib
-    - Name: 
-      Entry: 8
+    - Name: <Name>k__BackingField
+      Entry: 6
       Data: 
-    - Name: declarationType
-      Entry: 3
-      Data: 1
-    - Name: syncMode
-      Entry: 3
-      Data: 0
-    - Name: symbolResolvedTypeName
-      Entry: 1
-      Data: SystemBoolean
-    - Name: symbolOriginalName
-      Entry: 1
-      Data: keyDown
-    - Name: symbolUniqueName
-      Entry: 1
-      Data: keyDown
-    - Name: symbolDefaultValue
+    - Name: <UserType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SystemType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SyncMode>k__BackingField
+      Entry: 7
+      Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
+    - Name: 
       Entry: 6
       Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: fieldAttributes
-      Entry: 7
-      Data: 12|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 13|UnityEngine.HeaderAttribute, UnityEngine.CoreModule
-    - Name: header
-      Entry: 1
-      Data: OnDown Events
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: userBehaviourSource
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: buttonDown
-    - Name: $v
-      Entry: 7
-      Data: 14|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
-    - Name: fieldSymbol
-      Entry: 7
-      Data: 15|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
-    - Name: internalType
-      Entry: 9
-      Data: 11
-    - Name: declarationType
-      Entry: 3
-      Data: 1
-    - Name: syncMode
-      Entry: 3
-      Data: 0
-    - Name: symbolResolvedTypeName
-      Entry: 1
-      Data: SystemBoolean
-    - Name: symbolOriginalName
-      Entry: 1
-      Data: buttonDown
-    - Name: symbolUniqueName
-      Entry: 1
-      Data: buttonDown
-    - Name: symbolDefaultValue
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: fieldAttributes
-      Entry: 7
-      Data: 16|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: userBehaviourSource
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: eventTargets
-    - Name: $v
-      Entry: 7
-      Data: 17|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
-    - Name: fieldSymbol
-      Entry: 7
-      Data: 18|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
-    - Name: internalType
-      Entry: 7
-      Data: 19|System.RuntimeType, mscorlib
-    - Name: 
-      Entry: 1
-      Data: UdonSharp.UdonSharpBehaviour[], UdonSharp.Runtime
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: declarationType
-      Entry: 3
-      Data: 1
-    - Name: syncMode
-      Entry: 3
-      Data: 0
-    - Name: symbolResolvedTypeName
-      Entry: 1
-      Data: UnityEngineComponentArray
-    - Name: symbolOriginalName
-      Entry: 1
-      Data: eventTargets
-    - Name: symbolUniqueName
-      Entry: 1
-      Data: eventTargets
-    - Name: symbolDefaultValue
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: fieldAttributes
-      Entry: 7
-      Data: 20|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 21|UdonToolkit.ListViewAttribute, UdonToolkitRuntime
-    - Name: name
-      Entry: 1
-      Data: OnDown Event Targets
-    - Name: addMethodName
-      Entry: 6
-      Data: 
-    - Name: addButtonText
-      Entry: 1
-      Data: Add Element
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: userBehaviourSource
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: eventNames
-    - Name: $v
-      Entry: 7
-      Data: 22|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
-    - Name: fieldSymbol
-      Entry: 7
-      Data: 23|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
-    - Name: internalType
-      Entry: 7
-      Data: 24|System.RuntimeType, mscorlib
-    - Name: 
-      Entry: 1
-      Data: System.String[], mscorlib
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: declarationType
-      Entry: 3
-      Data: 1
-    - Name: syncMode
-      Entry: 3
-      Data: 0
-    - Name: symbolResolvedTypeName
-      Entry: 1
-      Data: SystemStringArray
-    - Name: symbolOriginalName
-      Entry: 1
-      Data: eventNames
-    - Name: symbolUniqueName
-      Entry: 1
-      Data: eventNames
-    - Name: symbolDefaultValue
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: fieldAttributes
-      Entry: 7
-      Data: 25|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 26|UdonToolkit.ListViewAttribute, UdonToolkitRuntime
-    - Name: name
-      Entry: 1
-      Data: OnDown Event Targets
-    - Name: addMethodName
-      Entry: 6
-      Data: 
-    - Name: addButtonText
-      Entry: 1
-      Data: Add Element
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 27|UdonToolkit.PopupAttribute, UdonToolkitRuntime
-    - Name: methodName
-      Entry: 1
-      Data: '@eventTargets'
-    - Name: sourceType
-      Entry: 3
-      Data: 5
-    - Name: shaderPropType
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: userBehaviourSource
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: keyUp
-    - Name: $v
-      Entry: 7
-      Data: 28|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
-    - Name: fieldSymbol
-      Entry: 7
-      Data: 29|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
-    - Name: internalType
-      Entry: 9
-      Data: 11
-    - Name: declarationType
-      Entry: 3
-      Data: 1
-    - Name: syncMode
-      Entry: 3
-      Data: 0
-    - Name: symbolResolvedTypeName
-      Entry: 1
-      Data: SystemBoolean
-    - Name: symbolOriginalName
-      Entry: 1
-      Data: keyUp
-    - Name: symbolUniqueName
-      Entry: 1
-      Data: keyUp
-    - Name: symbolDefaultValue
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: fieldAttributes
-      Entry: 7
-      Data: 30|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 31|UnityEngine.HeaderAttribute, UnityEngine.CoreModule
-    - Name: header
-      Entry: 1
-      Data: OnUp Events
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: userBehaviourSource
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: buttonUp
-    - Name: $v
-      Entry: 7
-      Data: 32|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
-    - Name: fieldSymbol
-      Entry: 7
-      Data: 33|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
-    - Name: internalType
-      Entry: 9
-      Data: 11
-    - Name: declarationType
-      Entry: 3
-      Data: 1
-    - Name: syncMode
-      Entry: 3
-      Data: 0
-    - Name: symbolResolvedTypeName
-      Entry: 1
-      Data: SystemBoolean
-    - Name: symbolOriginalName
-      Entry: 1
-      Data: buttonUp
-    - Name: symbolUniqueName
-      Entry: 1
-      Data: buttonUp
-    - Name: symbolDefaultValue
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: fieldAttributes
-      Entry: 7
-      Data: 34|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: userBehaviourSource
+    - Name: <IsSerialized>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: _fieldAttributes
       Entry: 6
       Data: 
     - Name: 
@@ -595,62 +365,29 @@ MonoBehaviour:
       Data: onUpEventTargets
     - Name: $v
       Entry: 7
-      Data: 35|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
-    - Name: fieldSymbol
+      Data: 10|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+    - Name: <Name>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <UserType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SystemType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SyncMode>k__BackingField
       Entry: 7
-      Data: 36|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
-    - Name: internalType
-      Entry: 9
-      Data: 19
-    - Name: declarationType
-      Entry: 3
-      Data: 1
-    - Name: syncMode
-      Entry: 3
-      Data: 0
-    - Name: symbolResolvedTypeName
-      Entry: 1
-      Data: UnityEngineComponentArray
-    - Name: symbolOriginalName
-      Entry: 1
-      Data: onUpEventTargets
-    - Name: symbolUniqueName
-      Entry: 1
-      Data: onUpEventTargets
-    - Name: symbolDefaultValue
+      Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
+    - Name: 
       Entry: 6
       Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: fieldAttributes
-      Entry: 7
-      Data: 37|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 38|UdonToolkit.ListViewAttribute, UdonToolkitRuntime
-    - Name: name
-      Entry: 1
-      Data: OnUp Event Targets
-    - Name: addMethodName
-      Entry: 6
-      Data: 
-    - Name: addButtonText
-      Entry: 1
-      Data: Add Element
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: userBehaviourSource
+    - Name: <IsSerialized>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: _fieldAttributes
       Entry: 6
       Data: 
     - Name: 
@@ -667,77 +404,29 @@ MonoBehaviour:
       Data: onUpEventNames
     - Name: $v
       Entry: 7
-      Data: 39|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
-    - Name: fieldSymbol
+      Data: 11|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+    - Name: <Name>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <UserType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SystemType>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <SyncMode>k__BackingField
       Entry: 7
-      Data: 40|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
-    - Name: internalType
-      Entry: 9
-      Data: 24
-    - Name: declarationType
-      Entry: 3
-      Data: 1
-    - Name: syncMode
-      Entry: 3
-      Data: 0
-    - Name: symbolResolvedTypeName
-      Entry: 1
-      Data: SystemStringArray
-    - Name: symbolOriginalName
-      Entry: 1
-      Data: onUpEventNames
-    - Name: symbolUniqueName
-      Entry: 1
-      Data: onUpEventNames
-    - Name: symbolDefaultValue
+      Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
+    - Name: 
       Entry: 6
       Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: fieldAttributes
-      Entry: 7
-      Data: 41|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 42|UdonToolkit.ListViewAttribute, UdonToolkitRuntime
-    - Name: name
-      Entry: 1
-      Data: OnUp Event Targets
-    - Name: addMethodName
-      Entry: 6
-      Data: 
-    - Name: addButtonText
-      Entry: 1
-      Data: Add Element
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 43|UdonToolkit.PopupAttribute, UdonToolkitRuntime
-    - Name: methodName
-      Entry: 1
-      Data: '@onUpEventTargets'
-    - Name: sourceType
-      Entry: 3
-      Data: 5
-    - Name: shaderPropType
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: userBehaviourSource
+    - Name: <IsSerialized>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: _fieldAttributes
       Entry: 6
       Data: 
     - Name: 
